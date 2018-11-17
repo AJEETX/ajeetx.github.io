@@ -255,4 +255,7 @@ header{
         border:1px solid #ddd;
         background-color: white;
     }
+    #github-link{
+        display: none;
+    }
 }
