@@ -255,7 +255,8 @@ header{
         border:1px solid #ddd;
         background-color: white;
     }
-    #github-link{
-        display: none;
+    #document-controls {
+        position: relative;
+        padding: 0 1in .5in 0.5in;
     }
 }

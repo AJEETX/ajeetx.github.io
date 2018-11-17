@@ -143,13 +143,13 @@
         if (!hasTemplate) return false;
         var docControlsStr =
             `<!-- Document control buttons-->
+            <div class="bottom-link">
             <div id="document-controls">
-                <button data-action="clear" title="Remove saved draft">Clear draft</button>
                 <button data-action="print" title="Print">Print</button>
             </div>
             <div id="github-link">     
                 <a class="github-button" href="https://github.com/ajeetx/ajeetx.github.io" data-size="large" data-show-count="true" aria-label="Star ajeet resume on GitHub">Star</a>
-            </div>`;
+            </div></div>`;
         var docControls = htmlToElement(docControlsStr);
         document.body.appendChild(docControls);
         return true;
@@ -228,7 +228,7 @@
     }
 
     function updatePageNumbers() {
-        var pages = document.querySelectorAll('.sheet');
+        var pages = document.querySelectorAll('.sheet.links');
         for (var i = 0, e = pages.length; i < e; i++) {
             pages[i].setAttribute('data-page-number', i + 1);
         }

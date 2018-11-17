@@ -22,14 +22,24 @@ body.letter.landscape .sheet { width: 280mm; height: 215mm }
 body.legal            .sheet { width: 216mm; height: 356mm }
 body.legal.landscape  .sheet { width: 357mm; height: 215mm }
 @media only screen 
-  and (min-device-width: 375px) 
-  and (max-device-width: 667px) 
-  and (-webkit-min-device-pixel-ratio: 2)
-  and (orientation: portrait) { 
-
-  body.letter  .sheet { width: auto; height: auto }
+    and (max-device-width: 640px), 
+    only screen and (max-device-width: 667px), 
+    only screen and (max-width: 480px){
+    body.letter  .sheet { width: auto; height: auto }
  }
-
+ @media only screen and (max-width: 1380px) 
+ {
+     #document-controls,#github-link {
+         position: relative;
+         padding: 0 6em 1em 6em;
+     }
+     body.letter.sheet.bottom-link{
+         background-color:transparent;
+         border: none;
+         box-shadow: 0 0mm 0mm rgba(0,0,0,.5);
+         height: auto;
+     }
+ }
 /** Padding area **/
 .sheet.padding-10mm { padding: 10mm }
 .sheet.padding-15mm { padding: 15mm }
