@@ -43,7 +43,13 @@ button {
     text-decoration: none;
     color: black;
 }
-
+@media all and (max-width: 1380px) {
+    
+    #document-controls,#github-link {
+        position: relative;
+        padding: 0 6em 0 6em;
+    }
+}
 /* Source https://www.bestcssbuttongenerator.com/#/36 */
 
 button {

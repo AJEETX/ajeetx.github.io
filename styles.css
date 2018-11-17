@@ -231,3 +231,16 @@ li .fa, li .fab {
 header{
     margin-bottom: 6x;
 }
+@media all and (max-width: 1000px) {
+    #save > section:first-of-type {
+        display: block;
+    }   
+    .contact >ul li,.contact >ul li> p{
+        display: inline-block;
+        padding:5px;
+    } 
+    .contact >ul li> p{
+        border:1px solid #ddd;
+        background-color: white;
+    }
+}
