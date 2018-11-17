@@ -21,10 +21,14 @@ body.letter           .sheet { width: 250mm; height: 279mm }
 body.letter.landscape .sheet { width: 280mm; height: 215mm }
 body.legal            .sheet { width: 216mm; height: 356mm }
 body.legal.landscape  .sheet { width: 357mm; height: 215mm }
-@media all and (max-width: 375px) {
-  body{min-width: 316px;}
+@media only screen 
+    and (max-device-width: 640px), 
+    only screen and (max-device-width: 667px), 
+    only screen and (max-width: 480px)
+{
   body.letter  .sheet { width: auto; height: auto }
-}
+ }
+
 /** Padding area **/
 .sheet.padding-10mm { padding: 10mm }
 .sheet.padding-15mm { padding: 15mm }

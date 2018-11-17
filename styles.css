@@ -231,13 +231,14 @@ li .fa, li .fab {
 header{
     margin-bottom: 6x;
 }
-@media all and (max-width: 375px) {
-    body{
-        min-width: 316px;
-    }
+@media only screen 
+    and (max-device-width: 640px), 
+    only screen and (max-device-width: 667px), 
+    only screen and (max-width: 480px)
+{ 
     #save > section:first-of-type {
         display: block;
-    }   
+    }  
     .contact >ul li,.contact >ul li> p{
         display: inline-block;
         padding:5px;
