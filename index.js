@@ -148,7 +148,7 @@
                 <button data-action="print" title="Print">Print</button>
             </div>
             <div id="github-link">     
-                <a class="github-button" href="https://github.com/ajeetx/html-resume-template" data-size="large" data-show-count="true" aria-label="Star ajeet/html-resume-template on GitHub">Star</a>
+                <a class="github-button" href="https://github.com/ajeetx/ajeetx.github.io" data-size="large" data-show-count="true" aria-label="Star ajeet/html-resume-template on GitHub">Star</a>
             </div>`;
         var docControls = htmlToElement(docControlsStr);
         document.body.appendChild(docControls);
