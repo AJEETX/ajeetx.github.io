@@ -96,7 +96,7 @@ li .fa, li .fab {
 }
 
 #save > section:first-of-type > aside > section + section {
-    margin-top: 2em;
+    margin-top: 1em;
 }
 
 #save > section:first-of-type > aside > section:last-child {
@@ -110,9 +110,9 @@ li .fa, li .fab {
 }
 
 #save > section:first-of-type > section > header {
-    flex-basis: var(--header-height);
+    /* flex-basis: var(--header-height); */
     flex-grow: 0;
-    padding: 0.1618in;
+    padding: 0.1618in 0 0 0.1618in;
 }
 
 #save > section:first-of-type > section > section {
@@ -127,7 +127,7 @@ li .fa, li .fab {
 }
 
 #save > section:first-of-type > section > section > section:last-child {
-    margin-top: 15px;
+    margin: .5in 0;
 }
 
 .references address {
@@ -236,7 +236,9 @@ header{
   and (max-device-width: 667px) 
   and (-webkit-min-device-pixel-ratio: 2)
   and (orientation: portrait) { 
- 
+    #save > section:first-of-type > section > section {
+        padding: 0 0.2618in;
+    }
     #save > section:first-of-type {
         display: block;
     }  

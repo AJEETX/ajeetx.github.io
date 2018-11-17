@@ -1,8 +1,16 @@
 html {
-    padding: 2.4em;
+    padding: 1em;
     padding-top: 0;
 }
-
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 667px) 
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: portrait) { 
+    html{
+        font-size: 2em;
+    }
+  }
 .sheet {
     border: 1px solid black;
 }
