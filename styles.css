@@ -232,6 +232,9 @@ header{
     margin-bottom: 6x;
 }
 @media all and (max-width: 375px) {
+    body{
+        min-width: 316px;
+    }
     #save > section:first-of-type {
         display: block;
     }   

@@ -22,6 +22,7 @@ body.letter.landscape .sheet { width: 280mm; height: 215mm }
 body.legal            .sheet { width: 216mm; height: 356mm }
 body.legal.landscape  .sheet { width: 357mm; height: 215mm }
 @media all and (max-width: 375px) {
+  body{min-width: 316px;}
   body.letter  .sheet { width: auto; height: auto }
 }
 /** Padding area **/
