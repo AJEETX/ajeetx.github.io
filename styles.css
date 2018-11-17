@@ -248,7 +248,7 @@ header{
         display: block;
     }  
     .contact >ul li,.contact >ul li> p{
-        display: inline-block;
+        display: block;
         padding:5px;
     } 
     .contact >ul li> p{
