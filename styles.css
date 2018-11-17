@@ -231,7 +231,7 @@ li .fa, li .fab {
 header{
     margin-bottom: 6x;
 }
-@media all and (max-width: 580px) {
+@media all and (max-width: 375px) {
     #save > section:first-of-type {
         display: block;
     }   
