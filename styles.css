@@ -260,3 +260,26 @@ header{
         padding: 0 1in .5in 0.5in;
     }
 }
+@media screen and (device-aspect-ratio: 40/71) {
+    li .fa, li .fab{
+        margin-right: 1em;
+    }
+    #save > section:first-of-type > section > section {
+        padding: 0 0.2618in;
+    }
+    #save > section:first-of-type {
+        display: block;
+    }  
+    .contact >ul li,.contact >ul li> p{
+        display: block;
+        padding:5px;
+    } 
+    .contact >ul li> p{
+        border:1px solid #ddd;
+        background-color: white;
+    }
+    #document-controls {
+        position: relative;
+        padding: 0 1in .5in 0.5in;
+    }
+}
