@@ -229,6 +229,7 @@ li .fa, li .fab {
 }
 .company > a{
     font-weight: 500;
+    color:blue;
 }
 header{
     margin-bottom: 6x;
