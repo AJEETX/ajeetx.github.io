@@ -1,0 +1,25 @@
+{
+  "name": "eshop",
+  "description": "A simple cms system with Node.js and nosql",
+  "version": "1.0.0",
+  "main": "release.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ajeetx/eshop"
+  },
+  "dependencies": {
+    "gm": "^1.23.1",
+    "nodemon": "^2.0.15",
+    "paypal-express-checkout": "^1.6.3",
+    "total.js": "^3.4.13"
+  },
+  "scripts": {
+    "debug": "node debug.js -o -p 5000"
+  },
+  "keywords": [
+    "cms",
+    "portal"
+  ],
+  "author": "azy",
+  "license": "MIT"
+}
